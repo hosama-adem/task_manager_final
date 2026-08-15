@@ -1,0 +1,28 @@
+packages:
+  task_manager/Domain:
+    interfaces:
+      TaskRepository:
+        config:
+          dir: Mocks
+          filename: TaskRepositoryMock.go
+          structname: TaskRepositoryMock
+
+      UserRepository:
+        config:
+          dir: Mocks
+          filename: UserRepositoryMock.go
+          structname: UserRepositoryMock
+
+  task_manager/Usecases:
+    interfaces:
+      TaskUsecase:
+        config:
+          dir: Mocks
+          filename: TaskUsecaseMock.go
+          structname: TaskUsecaseMock
+
+      UserUsecase:
+        config:
+          dir: Mocks
+          filename: UserUsecaseMock.go
+          structname: UserUsecaseMock
